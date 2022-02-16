@@ -276,6 +276,13 @@ footer a:hover {
         max-width: 100%;
     }
 
+    #info-xadrez #div-imagem {
+        padding-bottom: 0px;
+    }
+
+    #info-xadrez #div-video {
+        padding-top: 0px;
+    }
 
     #info-xadrez .imagem img, video {
         width: 100%;
