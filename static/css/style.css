@@ -296,6 +296,14 @@ footer a:hover {
         display: block;
     }
 
+    #lancamento {
+        padding-bottom: 16px;
+    }
+
+    #noticias {
+        padding-top: 1px;
+    }
+
     #noticias #novidades > p + p {
         margin-bottom: 0;
         padding-bottom: 20px;
