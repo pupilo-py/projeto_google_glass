@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+#img-destaque {
+    background-color: white;
+    text-align: center;
+    padding-top: 16px;
+}
+
+#img-destaque h1 {
+    margin: 0px 16px 16px 16px;
+    font-size: 3em;
+}
+
+#img-destaque p {
+    margin: 16px;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#img-destaque img {
+    padding: 20px 0 20px 0;
+    max-width: 75%;
+}
+
+#info-xadrez {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    padding: 30px 0 30px 0;
+}
+
+#info-xadrez article {
+    display: flex;
+    justify-content: space-between;
+}
+
+#info-xadrez #artigo-1 {
+    margin-bottom: 10px;
+}
+
+#info-xadrez #artigo-2 {
+    margin-top: 10px;
+}
+
+#info-xadrez div {
+    max-width: 600px;
+    padding: 30px;
+    text-align: justify;
+}
+
+#info-xadrez article .texto h2 {
+    background-color: var(--cor3);
+    margin: 16px 0 16px 0;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+#info-xadrez article .texto p {
+    text-indent: 30px;
+    line-height: 1.8em;
+}
+
+#info-xadrez article .imagem {
+    align-self: center;
+}
+
+#fundo {
+    background-image: url("../../media/images/glass-oculos-fundo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#info-tec {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "f n"
+                         "s n"
+                         "d n";
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+#como-funciona {
+    grid-area: f;
+}
+
+.artigo-tec {
+    text-align: justify;
+    padding: 16px 30px 0 30px;
+    align-self: center;
+}
+
+.artigo-tec h2 {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    margin-bottom: 16px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.artigo-tec p {
+    text-indent: 30px;
+    line-height: 1.8em;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+#spec-tec {
+    grid-area: s;
+    padding: 0 30px 0 30px;
+    align-self: center;
+}
+
+#spec-tec h2 {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    margin: 16px 0 16px 0;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+#spec-tec table {
+    border-collapse: collapse;
+    justify-content: right;
+    margin: auto;
+    width: 100%;
+}
+
+#spec-tec table caption {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    font-weight: bold;
+}
+
+#spec-tec table th {
+    background-color: var(--cor3);
+    color: white;
+}
+
+#spec-tec table td {
+    background-color: var(--cor2);
+    text-align: center;
+}
+
+#spec-tec table td, #spec-tec table th, #spec-tec table caption {
+    border: 1px solid var(--cor4);
+    padding: 10px;
+}
+
+#lancamento {
+    grid-area: d;
+}
+
+#noticias {
+    grid-area: n;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    text-align: justify;
+    padding: 0 30px 0 30px;
+}
+
+#noticias h2 {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    margin: 16px 0 16px 0;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+#noticias p {
+    text-indent: 30px;
+    line-height: 1.8em;
+}
+
+#noticias > div > p {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+
+    #info-xadrez article {
+        display: block;
+    }
+
+    #info-xadrez article div {
+        max-width: 100%;
+    }
+
+    #info-xadrez #div-imagem {
+        padding-bottom: 0px;
+    }
+
+    #info-xadrez #div-video {
+        padding-top: 0px;
+    }
+
+    #info-xadrez .imagem img, video {
+        width: 100%;
+        height: auto;
+    }
+
+    #info-tec {
+        display: block;
+    }
+
+    #lancamento {
+        padding-bottom: 16px;
+    }
+
+    #noticias {
+        padding-top: 1px;
+    }
+
+    #noticias #novidades > p + p {
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+}
