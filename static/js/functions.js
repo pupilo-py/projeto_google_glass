@@ -11,3 +11,7 @@ function trocarMenu(event) {
     const nav = window.document.querySelector("nav")
     nav.classList.toggle("active")
 }
+
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+});
