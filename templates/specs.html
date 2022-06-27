@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/specs.css">
     <link rel="stylesheet" href="../static/css/style.css">
     <script src="../static/js/functions.js" defer></script>
     <link rel="shortcut icon" href="../media/images/favicon.png" type="image/png">
@@ -28,6 +29,26 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section>
+            <div>
+                <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+                
+                <img src="../media/images/glass-esquema-marcado.jpg" alt="Esquema do Google Glass" usemap="#glass">
+                <map name="glass">
+                    <area shape="poly" coords="184,208,265,208,267,243,184,255" href="google_glass.html#tela" target="specs" alt="Área da tela do Google Glass">
+                    <area shape="circle" coords="158,243,12" href="google_glass.html#camera" target="specs" alt="Área da câmera do Google Glass">
+                    <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google_glass.html#sensores" target="specs" alt="Área dos sensores do Google Glass">
+                    <area shape="circle" coords="73,52,12" href="google_glass.html#bateria" target="specs" alt="Área da bateria do Google Glass">
+                </map>
+            </div>
+            
+            <div>
+                <iframe name="specs" src="google_glass.html" frameborder="0"></iframe>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; João Victor</p>
