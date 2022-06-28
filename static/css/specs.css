@@ -38,7 +38,7 @@ main section div iframe {
     height: 100%;
 }
 
-@media (max-width: 1184px) {
+@media (max-width: 1124px) {
     main section div {
         max-width: 450px;
     }
@@ -48,7 +48,7 @@ main section div iframe {
     }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 974px) {
     main section {
         display: block;
         max-width: 600px;
@@ -60,51 +60,72 @@ main section div iframe {
     }
 
     main section div + div {
-        width: 600px;
-        height: 375px;
+        width: 540px;
+        height: 376px;
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 599px) {
     main section {
         max-width: 560px;
     }
 
     main section div + div {
         width: 500px;
-        height: 475px;
     }
 }
 
-@media (max-width: 561px) {
+@media (max-width: 559px) {
     main section {
         max-width: 510px;
     }
 
     main section div + div {
         width: 450px;
-        height: 431px;
+        height: 406px;
     }
 }
 
-@media (max-width: 511px) {
+@media (max-width: 509px) {
     main section {
         max-width: 400px;
     }
 
     main section div + div {
         width: 340px;
-        height: 519px;
+        height: 446px;
     }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 399px) {
+    main section {
+        max-width: 340px;
+    }
+
+    main section div + div {
+        width: 280px;
+        height: 520px;
+    }
+}
+
+@media (max-width: 339px) {
     main section {
         max-width: 320px;
     }
 
     main section div + div {
         width: 260px;
-        height: 673px;
+        height: 548px;
+    }
+}
+
+@media (max-width: 319px) {
+    main section {
+        max-width: 280px;
+    }
+
+    main section div + div {
+        width: 220px;
+        height: 626px;
     }
 }
