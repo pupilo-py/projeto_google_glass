@@ -70,8 +70,12 @@ main section div iframe {
         max-width: 560px;
     }
 
+    main section div {
+        padding: 30px 16px;
+    }
+
     main section div + div {
-        width: 500px;
+        width: 528px;
     }
 }
 
@@ -81,8 +85,7 @@ main section div iframe {
     }
 
     main section div + div {
-        width: 450px;
-        height: 406px;
+        width: 478px;
     }
 }
 
@@ -92,8 +95,8 @@ main section div iframe {
     }
 
     main section div + div {
-        width: 340px;
-        height: 446px;
+        width: 368px;
+        height: 424px;
     }
 }
 
@@ -103,8 +106,8 @@ main section div iframe {
     }
 
     main section div + div {
-        width: 280px;
-        height: 520px;
+        width: 308px;
+        height: 492px;
     }
 }
 
@@ -114,8 +117,8 @@ main section div iframe {
     }
 
     main section div + div {
-        width: 260px;
-        height: 548px;
+        width: 288px;
+        height: 520px;
     }
 }
 
@@ -125,7 +128,7 @@ main section div iframe {
     }
 
     main section div + div {
-        width: 220px;
-        height: 626px;
+        width: 248px;
+        height: 548px;
     }
 }
