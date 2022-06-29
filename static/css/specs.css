@@ -6,6 +6,11 @@ main {
     background-color: white;
 }
 
+main h1 {
+    margin: 0 30px;
+    padding: 0 16px;
+}
+
 main section {
     display: flex;
     justify-content: space-evenly;
@@ -49,6 +54,11 @@ main section div iframe {
 }
 
 @media (max-width: 974px) {
+    main h1 {
+        text-align: center;
+        margin: 0;
+    }
+
     main section {
         display: block;
         max-width: 600px;
