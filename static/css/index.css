@@ -216,3 +216,9 @@
         padding-bottom: 20px;
     }
 }
+
+@media (max-width: 319px) {
+    #spec-tec table td, #spec-tec table th, #spec-tec table caption {
+        padding: 10px 0;
+    }
+}
