@@ -46,6 +46,10 @@ header nav ul {
     list-style: none;
 }
 
+header nav ul::-webkit-scrollbar {
+    display: none;
+}
+
 header nav ul li a {
     text-decoration: none;
     color: var(--cor1);
