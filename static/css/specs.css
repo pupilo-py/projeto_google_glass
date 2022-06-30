@@ -11,10 +11,25 @@ main h1 {
     padding: 0 16px;
 }
 
+main p {
+    text-align: justify;
+    margin: 0 30px;
+    padding: 16px;
+    line-height: 1.8em;
+    max-width: 600px;
+}
+
 main section {
     display: flex;
     justify-content: space-evenly;
+}
 
+main section h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.8em;
+    margin: 16px 0;
+    padding: 14px;
 }
 
 main section div {
@@ -25,13 +40,9 @@ main section div {
 
 main section div + div {
     width: 600px;
+    min-height: 400px;
 }
 
-main section div p {
-    text-align: justify;
-    padding: 16px;
-    line-height: 1.8em;
-}
 
 main section div img {
     max-width: 100%;
