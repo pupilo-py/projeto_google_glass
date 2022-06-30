@@ -114,3 +114,10 @@ main ul#galeria li#img6:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
+
+@media (max-width: 974px) {
+    main h1 {
+        text-align: center;
+        margin: 0;
+    }
+}
