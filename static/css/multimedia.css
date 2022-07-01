@@ -22,5 +22,88 @@ main div#tv-cel audio {
     position: relative;
     left: 725px;
     top: 170px;
-    max-width: 150px;
+    width: 150px;
+}
+
+@media (max-width: 900px) {
+    main div#tv-cel {
+        background: url(../../media/images/tv-cel-700.png) no-repeat;
+        width: 700px;
+        height: 446px;
+    }
+
+    main div#tv-cel video {
+        left: 23px;
+        top: 46px;
+        width: 373px;
+    }
+    
+    main div#tv-cel audio {
+        left: 564px;
+        top: 132px;
+        width: 116px;
+    }
+}
+
+@media (max-width: 700px) {
+    main div#tv-cel {
+        background: url(../../media/images/tv-cel-500.png) no-repeat;
+        width: 500px;
+        height: 577px;
+    }
+
+    main div#tv-cel video {
+        left: 12px;
+        top: 3px;
+        width: 476px;
+        height: 278px;
+    }
+    
+    main div#tv-cel audio {
+        left: 245px;
+        top: 150px;
+        width: 190px;
+    }
+}
+
+@media (max-width: 500px) {
+    main div#tv-cel {
+        background: url(../../media/images/tv-cel-300.png) no-repeat;
+        width: 300px;
+        height: 346px;
+    }
+
+    main div#tv-cel video {
+        left: 7px;
+        top: 0px;
+        width: 286px;
+        height: 170px;
+    }
+    
+    main div#tv-cel audio {
+        left: 149px;
+        top: 75px;
+        width: 110px;
+    }
+}
+
+@media (max-width: 300px) {
+    main div#tv-cel {
+        background: url(../../media/images/tv-cel-280.png) no-repeat;
+        width: 280px;
+        height: 323px;
+    }
+
+    main div#tv-cel video {
+        left: 5px;
+        top: 4px;
+        width: 270px;
+        height: 154px;
+    }
+    
+    main div#tv-cel audio {
+        left: 141px;
+        top: 73px;
+        width: 100px;
+    }
 }
