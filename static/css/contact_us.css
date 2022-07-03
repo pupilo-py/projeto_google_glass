@@ -1,3 +1,122 @@
 @charset "UTF-8";
 @import url("root.css");
 @import url("subpages.css");
+
+main > p {
+    margin-bottom: 16px;
+}
+
+form#fContato {
+    max-width: 1000px;
+    margin: auto;
+    background-color: var(--cor4);
+    padding: 30px 0 50px;
+    border-radius: 10px;
+}
+
+form#fContato div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "u c"
+                         "m p";
+}
+
+form#fContato div fieldset {
+    border: none;
+    border-radius: 10px;
+}
+
+form#fContato div > fieldset {
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+form#fContato div > fieldset#usuario {
+    grid-area: u;
+    background: var(--cor1) url(../../media/images/form-usuario.png) no-repeat 95% 5%;
+}
+
+form#fContato div > fieldset#casa {
+    grid-area: c;
+    background: var(--cor1) url(../../media/images/form-casa.png) no-repeat 95% 5%;
+}
+
+form#fContato div > fieldset#mensagem {
+    grid-area: m;
+    background: var(--cor1) url(../../media/images/form-mensagem.png) no-repeat 95% 5%;
+}
+
+form#fContato div > fieldset#pedido {
+    grid-area: p;
+    background: var(--cor1) url(../../media/images/form-oculos.png) no-repeat 95% 5%;
+}
+
+form#fContato div > fieldset > legend {
+    font-weight: bold;
+    background-color: var(--cor1);
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+form#fContato div > fieldset#usuario > fieldset#sexo {
+    border: 1px solid black;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+form#fContato div > fieldset#usuario > fieldset#sexo > legend {
+    font-weight: bold;
+}
+
+form#fContato div fieldset p {
+    text-align: left;
+    margin: 5px;
+    padding: 0;
+}
+
+form#fContato div fieldset legend {
+    font-style: italic;
+}
+
+form#fContato button[type="submit"] {
+    float: right;
+    background-color: var(--cor1);
+    width: 100px;
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    
+}
+
+form#fContato button[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
+
+@media (max-width: 974px) {
+    form#fContato {
+        max-width: 600px;
+    }
+
+    form#fContato div {
+        display: block;
+    }
+
+    form#fContato button[type="submit"] {
+        width: 90%;
+        margin: 0 5%;        
+    }
+}
+
+@media (max-width: 374px) {
+    textarea {
+        max-width: 200px;
+    }
+}
