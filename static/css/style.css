@@ -88,7 +88,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 863px) {
 
     #menu {
         display: block;

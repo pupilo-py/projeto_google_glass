@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/index.css">
     <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/index.css">
     <script src="static/js/functions.js" defer></script>
-    <link rel="shortcut icon" href="media/images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="media/images_compressed/favicon.png" type="image/png">
     <title>Google Glass</title>
 </head>
 <body>
     <header>
         <div>
-            <img src="media/images/glass-logo-transp-peq.png" alt="Logo do Google Glass">
+            <img src="media/images_compressed/glass-logo.png" alt="Logo do Google Glass">
             <p>A revolução do Google está chegando</p>
         </div>
 
@@ -34,13 +34,22 @@
         <section id="img-destaque">
             <h1>Descubra o Google Glass</h1>
             <p>Um dispositivo para um trabalho prático mais rápido e inteligente.</p>
-            <img src="media/images/glass-oculos-preto-gig.png" alt="Google Glass">
+            <picture>
+
+                <source media="(min-width: 425px)" srcset="media/images_compressed/glass-g.webp" type="image/webp">
+                <source media="(min-width: 320px)" srcset="media/images_compressed/glass-m.webp" type="image/webp">
+                <img src="media/images_compressed/glass-p.webp" alt="Google Glass">
+            </picture>
         </section>
         
-        <section id="info-xadrez">
+        <section id="info-xadrez">  
             <article id="artigo-1">
                 <div id="div-imagem" class="imagem">
-                    <img src="media/images/glass-quadro-homem-mulher.jpg" alt="Homem e mulher utilizando o Google Glass">
+                    <picture>
+                        <source media="(min-width: 1212px)" srcset="media/images_compressed/glass-homem-mulher.webp" type="image/webp">
+                        <source media="(min-width: 1023px)" srcset="media/images_compressed/glass-mulher.webp" type="image/webp">
+                        <img src="media/images_compressed/glass-homem-mulher.webp" alt="Homem e mulher utilizando o Google Glass">
+                    </picture>
                 </div>
     
                 <div class="texto">
@@ -57,10 +66,10 @@
                     <p>O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de “super-humano”, já que o aparelho pode indicar a quantos metros você está de seu destino, se o metrô está aberto ou fechado, mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas com comandos de voz.</p>
                 </div>
     
-                <div id="div-video" class="imagem">
-                    <video controls poster="media/images/video-mini01.jpg">
-                        <source src="media/videos/one-day.mp4" type="video/mp4">
-                    </video>
+                <div id="div-video" class="video">
+                    <video controls poster="media/images_compressed/cover-video-1.webp">
+                        <source src="media/videos_compressed/one-day.webm" type="video/webm">
+                    </video>                     
                 </div>
             </article>
         </section>
@@ -119,8 +128,8 @@
                     <div id="div-video-2">
                         <h2>Vídeo mais recente</h2>
         
-                        <video controls poster="media/images/video-mini02.jpg">
-                            <source src="media/videos/how-it-feels.mp4" type="video/mp4">
+                        <video controls poster="media/images_compressed/cover-video-2.webp  ">
+                            <source src="media/videos_compressed/how-it-feels.webm" type="video/webm">
                         </video>
                     </div>
         
