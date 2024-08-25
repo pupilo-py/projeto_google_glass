@@ -9,7 +9,6 @@ main p {
     background-color: white;
     text-align: center;
     padding-top: 16px;
-    height: 100vh;
 }
 
 #img-destaque h1 {
@@ -28,6 +27,7 @@ main p {
     display: block;
     margin: auto;
     margin-top: 10vh;
+    padding-bottom: 30vh;
 }
 
 #info-xadrez {
